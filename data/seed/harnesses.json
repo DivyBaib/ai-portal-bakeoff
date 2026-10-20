@@ -1,0 +1,11 @@
+{
+  "_notice": "SAMPLE DATA for development only. Fields marked null are unknown and must be filled from real sources later.",
+  "harnesses": [
+    { "id": "opencode", "name": "OpenCode", "kind": "terminal", "providerAgnostic": true, "license": null, "githubUrl": null },
+    { "id": "aider", "name": "Aider", "kind": "terminal", "providerAgnostic": true, "license": null, "githubUrl": null },
+    { "id": "crush", "name": "Crush", "kind": "terminal", "providerAgnostic": true, "license": null, "githubUrl": null },
+    { "id": "goose", "name": "Goose", "kind": "terminal", "providerAgnostic": true, "license": null, "githubUrl": null },
+    { "id": "gemini-cli", "name": "Gemini CLI", "kind": "terminal", "providerAgnostic": false, "license": null, "githubUrl": null },
+    { "id": "cline", "name": "Cline", "kind": "ide-extension", "providerAgnostic": true, "license": null, "githubUrl": null }
+  ]
+}

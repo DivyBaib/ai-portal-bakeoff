@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Secrets and credentials: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+*.kdbx
+.npmrc
+.netrc
+auth.json
+credentials.json
+secrets.*
+secrets/
+.aws/
+.ssh/
+.gnupg/
+
+# Local tool state and overrides (sessions, caches, per-machine config)
+.opencode/
+*.local
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

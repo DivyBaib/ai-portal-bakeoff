@@ -1,0 +1,10 @@
+{
+  "branch": "agent/<harness>--<model>",
+  "harness": "opencode",
+  "harnessVersion": "",
+  "modelId": "",
+  "provider": "",
+  "route": "",
+  "startedAt": "",
+  "freeTierNotes": ""
+}

@@ -1,0 +1,9 @@
+{
+  "_notice": "SAMPLE DATA for development only. Values are synthetic placeholders, not real benchmark results.",
+  "sources": [
+    { "id": "artificial-analysis", "name": "Artificial Analysis", "reliability": 0.9, "relevance": 0.7, "ageDays": 3 },
+    { "id": "aider-polyglot", "name": "Aider polyglot leaderboard", "reliability": 0.85, "relevance": 0.9, "ageDays": 14 },
+    { "id": "swe-bench", "name": "SWE-bench", "reliability": 0.8, "relevance": 0.95, "ageDays": 21 },
+    { "id": "lmarena-webdev", "name": "LMArena WebDev", "reliability": 0.6, "relevance": 0.8, "ageDays": 7 }
+  ]
+}

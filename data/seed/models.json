@@ -1,0 +1,77 @@
+{
+  "_notice": "SAMPLE DATA for development only. Scores, limits and prices are synthetic placeholders, not real measurements. The UI must show a 'sample data' banner while this file is the data source.",
+  "models": [
+    {
+      "id": "nemotron-3-ultra",
+      "name": "Nemotron 3 Ultra",
+      "vendor": "NVIDIA",
+      "parameters": null,
+      "license": null,
+      "contextWindow": 256000,
+      "toolCalling": 0.85,
+      "scores": { "artificial-analysis": 72, "aider-polyglot": 68, "swe-bench": 66 },
+      "free": { "available": true, "requestsPerDay": 500, "trainsOnPrompts": true },
+      "price": null
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "vendor": "DeepSeek",
+      "parameters": null,
+      "license": null,
+      "contextWindow": 1000000,
+      "toolCalling": 0.8,
+      "scores": { "artificial-analysis": 70, "aider-polyglot": 64, "lmarena-webdev": 71 },
+      "free": { "available": true, "requestsPerDay": 400, "trainsOnPrompts": true },
+      "price": { "inputPerMTok": 0.2, "outputPerMTok": 0.8 }
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "GPT-OSS 120B",
+      "vendor": "OpenAI",
+      "parameters": "~120B (MoE)",
+      "license": null,
+      "contextWindow": 128000,
+      "toolCalling": 0.8,
+      "scores": { "artificial-analysis": 66, "aider-polyglot": 58, "swe-bench": 55 },
+      "free": { "available": true, "requestsPerDay": 50, "trainsOnPrompts": false },
+      "price": { "inputPerMTok": 0.1, "outputPerMTok": 0.5 }
+    },
+    {
+      "id": "mimo-v2-5",
+      "name": "MiMo-V2.5",
+      "vendor": "Xiaomi",
+      "parameters": null,
+      "license": null,
+      "contextWindow": 256000,
+      "toolCalling": 0.75,
+      "scores": { "artificial-analysis": 64, "swe-bench": 57 },
+      "free": { "available": true, "requestsPerDay": 300, "trainsOnPrompts": true },
+      "price": null
+    },
+    {
+      "id": "gemini-flash",
+      "name": "Gemini Flash (3.x)",
+      "vendor": "Google",
+      "parameters": null,
+      "license": null,
+      "contextWindow": 1000000,
+      "toolCalling": 0.9,
+      "scores": { "artificial-analysis": 74, "aider-polyglot": 70, "lmarena-webdev": 78 },
+      "free": { "available": true, "requestsPerDay": 20, "trainsOnPrompts": true },
+      "price": { "inputPerMTok": 0.75, "outputPerMTok": 3.75 }
+    },
+    {
+      "id": "sample-paid-frontier",
+      "name": "Sample Paid Model (placeholder)",
+      "vendor": "Example",
+      "parameters": null,
+      "license": null,
+      "contextWindow": 200000,
+      "toolCalling": 0.95,
+      "scores": { "artificial-analysis": 85, "aider-polyglot": 82, "swe-bench": 80, "lmarena-webdev": 84 },
+      "free": { "available": false, "requestsPerDay": null, "trainsOnPrompts": false },
+      "price": { "inputPerMTok": 3, "outputPerMTok": 15 }
+    }
+  ]
+}

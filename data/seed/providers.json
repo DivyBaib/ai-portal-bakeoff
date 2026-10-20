@@ -1,0 +1,8 @@
+{
+  "_notice": "SAMPLE DATA for development only. Free-tier limits change often; every real entry needs sourceUrl and lastVerified.",
+  "providers": [
+    { "id": "opencode-zen", "name": "OpenCode Zen", "freeTier": { "available": true, "requestsPerDay": null, "trainsOnPrompts": true }, "sourceUrl": "https://opencode.ai/zen", "lastVerified": null },
+    { "id": "openrouter", "name": "OpenRouter", "freeTier": { "available": true, "requestsPerDay": 50, "trainsOnPrompts": null }, "sourceUrl": "https://openrouter.ai", "lastVerified": null },
+    { "id": "google-ai-studio", "name": "Google AI Studio (Gemini API)", "freeTier": { "available": true, "requestsPerDay": null, "trainsOnPrompts": true }, "sourceUrl": "https://aistudio.google.com/rate-limit", "lastVerified": null }
+  ]
+}
