@@ -1,0 +1,10 @@
+{
+  "branch": "agent/opencode--nemotron3-ultra",
+  "harness": "opencode",
+  "harnessVersion": "opencode v2.1.1",
+  "modelId": "opencode/nemotron-3-ultra-free",
+  "provider": "OpenCode Zen",
+  "route": "Zen gateway to NVIDIA free endpoint",
+  "startedAt": "2026-10-20",
+  "freeTierNotes": "Free for a limited time; NVIDIA trial endpoint, usage logged; no confidential data"
+}
