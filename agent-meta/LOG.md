@@ -1,7 +1,7 @@
 # Run log: agent/<harness>--<model>
 
 ## Setup
-- OpenCode version: opencode v2.1.1
+- OpenCode version: opencode v2.1.2
 - Model ID (from `opencode models`): opencode/deepseek-v4.1-flash-free
 - Provider / route: OpenCode Zen
 - Date started: 2026-10-21
