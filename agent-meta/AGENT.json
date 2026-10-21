@@ -1,0 +1,10 @@
+{
+  "branch": "agent/opencode--deepseek-v4.1-flash",
+  "harness": "opencode",
+  "harnessVersion": "opencode v2.1.1",
+  "modelId": "opencode/deepseek-v4.1-flash-free",
+  "provider": "OpenCode Zen",
+  "route": "Zen gateway to DeepSeek free endpoint",
+  "startedAt": "2025-10-21",
+  "freeTierNotes": "Free for a limited time; DeepSeek trial endpoint, usage logged; no confidential data"
+}
