@@ -1,9 +1,10 @@
-# Run log: agent/<harness>--<model>
+# Run log: agent/opencode--nemotron3-ultra
 
 ## Setup
-- OpenCode version: opencode v2.1.2
+- OpenCode version: 2.1.2
+- Node version: v22.23.3
 - Model ID (from `opencode models`): opencode/nemotron-3-ultra-free
-- Provider / route: OpenCode Zen
+- Provider / route: OpenCode Zen (Zen gateway to NVIDIA free endpoint)
 - Date started: 2026-10-20
 
 ## Phase log
