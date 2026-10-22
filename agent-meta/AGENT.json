@@ -1,7 +1,7 @@
 {
   "branch": "agent/opencode--deepseek-v4.1-flash",
   "harness": "opencode",
-  "harnessVersion": "opencode v2.1.2",
+  "harnessVersion": "2.1.2",
   "modelId": "opencode/deepseek-v4.1-flash-free",
   "provider": "OpenCode Zen",
   "route": "Zen gateway to DeepSeek free endpoint",
