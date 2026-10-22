@@ -10,7 +10,7 @@
 ## Phase log
 | Phase | Sessions | Follow-ups used (max 3) | Tokens / requests | Wall-clock | Outcome (done / partial / failed) | Notes |
 |---|---|---|---|---|---|---|
-| 1 | | | | | | |
+| 1 | 1 | 0 | total 521100 | 00:10 | done | Started 2026-10-22 07:36, ended 2026-10-22 07:46. Local: typecheck pass, unit pass, build pass, acceptance 0/12. Prompt: phase prompt + Done-when list. FU: none. UI check: sort/filter/search/banner ok. Events: none. |
 | 2 | | | | | | |
 | 3 | | | | | | |
 
