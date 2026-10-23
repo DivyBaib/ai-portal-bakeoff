@@ -1,7 +1,7 @@
 import { useState, useMemo, useCallback } from "react";
 import type { Model } from "../data/schemas";
 
-type SortColumn = keyof Pick<Model, "name" | "vendor" | "contextWindow" | "toolCalling" | "free" | "price">;
+type SortColumn = "name" | "vendor" | "contextWindow" | "toolCalling" | "freeAvailable" | "freeRequests" | "price";
 type SortDirection = "asc" | "desc";
 
 interface ModelsViewProps {
@@ -64,9 +64,13 @@ export function ModelsView({ models }: ModelsViewProps) {
           aVal = a.toolCalling;
           bVal = b.toolCalling;
           break;
-        case "free":
+        case "freeAvailable":
           aVal = a.free.available ? 1 : 0;
           bVal = b.free.available ? 1 : 0;
+          break;
+        case "freeRequests":
+          aVal = a.free.requestsPerDay ?? -1;
+          bVal = b.free.requestsPerDay ?? -1;
           break;
         case "price":
           aVal = a.price ? a.price.inputPerMTok : Number.MAX_SAFE_INTEGER;
@@ -145,8 +149,8 @@ export function ModelsView({ models }: ModelsViewProps) {
                 { key: "vendor", label: "Vendor" },
                 { key: "contextWindow", label: "Context Window" },
                 { key: "toolCalling", label: "Tool-Calling Reliability" },
-                { key: "free", label: "Free Availability" },
-                { key: "free", label: "Requests/Day" },
+                { key: "freeAvailable", label: "Free Availability" },
+                { key: "freeRequests", label: "Requests/Day" },
                 { key: "price", label: "Price (Input / Output per 1M)" },
               ].map(({ key, label }) => (
                 <th
