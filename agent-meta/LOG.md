@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | 1 | 1 | 0 | total 1200000 | 00:12 | done | Started 2026-10-22 09:17, ended 2026-10-22 09:29. Local: typecheck pass, unit pass, build pass, acceptance 0/12. Prompt: phase prompt + Done-when list. FU: none. UI check: sort/filter/search/banner ok. Events: agent added jsdom 30.1.3 (under 14 days old, outside the lockfile age rule) and @testing-library/react 16.3.3 (exactly 14 days old); left unchanged. |
 | 2 | 1 | 0 | total 200000 | 00:02 | done | Started 2026-10-23 12:46, ended 2026-10-23 12:48. Local: typecheck pass, unit pass, build pass, acceptance 12/12. Prompt: phase prompt + Done-when list. FU: none. Acceptance 12/12. Events: none. Tokens from opencode stats text report (rounded to 0.1k). |
-| 3 | | | | | | |
+| 3 | 1 | 0 | total 3000000 | 00:10 | done | Started 2026-10-23 17:49, ended 2026-10-23 17:59. Local: typecheck pass, unit pass, build pass, acceptance 12/12. Prompt: phase prompt + Done-when list. FU: none. UI check: re-rank on mode toggle, why-panel lists every source weight and score, compare 2/3 ok, sample-data banner visible, no console errors, 360px [360,360] no overflow (agent also added 1280px layout). Events: none. Tokens from opencode stats text report (rounded to 0.1k). |
 
 ## Interruptions
 (Rate limits hit, model removed, outages: date, what happened, what you did.)
